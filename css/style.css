@@ -1,0 +1,54 @@
+.logo{
+    max-width: 20%;
+}
+
+.navegacion{
+    text-decoration: none;
+}
+
+.fondooscuro{
+    background-color: #4f5050;
+    color: white;
+    transition: background-color 1s ease-out;
+}
+.fondopredeterminado{
+    background-color: #ffffff;
+    color: black;
+    transition: background-color 1s ease-out;
+}
+
+.margennarbar{
+    margin-left: 70%;
+    
+}
+@media screen and (max-width: 992px) {
+    .margennarbar{
+        margin-left: 0;
+        
+    }
+  }
+
+  .rojo{
+      background-color: red;
+  }
+  .verde{
+      background-color: green;
+  }
+  .rosa{
+    background-color: pink;
+}
+
+  .localfoto{
+      width: 70%;
+  }
+  .margenLargo{
+      margin-top: 5%;
+      margin-bottom: 5%;
+  }
+  .margenLargobot{
+      margin-bottom: 10%;
+
+  }
+  .fotogrupal{
+      width: 10%;
+  }
